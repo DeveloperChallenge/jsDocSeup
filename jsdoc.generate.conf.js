@@ -1,23 +1,11 @@
 'use strict';
 
-var filesForDocco = 'docco ./src/app.js ' +
-    './src/modules/config/*.js ' +
-    './src/modules/core/directives/*.directive.js ' +
-    './src/modules/core/filters/*.filter.js ' +
-    './src/modules/core/services/*.service.js ' +
-    './src/app.controller.js ' +
-    './src/modules/**/*.js'
+var filesForDocco = 'doco ./app2.js';
 
 
 var exec = require('child_process').exec;
-// var createDoccoDocs = filesForDocco;
-var createjsDoc = 'jsdoc ./src/app.js ' +
-    './src/modules/config/*.js ' +
-    './src/modules/core/directives/*.directive.js ' +
-    './src/modules/core/filters/*.filter.js ' +
-    './src/modules/core/services/*.service.js ' +
-    './src/app.routes.js ' +
-    './src/modules/**/*.js';
+
+var createjsDoc = 'jsdoc ./app.js';
 
 var debug = require('debug'),
     error = debug('error'),

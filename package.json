@@ -8,7 +8,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DeveloperChallenge/jsDocSeup.git"
+    "url": "git+https://github.com/DeveloperChallenge/jsDocSeup.git",
+    "generate-docs": "DEBUG=* node jsdoc.generate.conf.js"
   },
   "keywords": [
     "jaDoc",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/DeveloperChallenge/jsDocSeup#readme",
   "devDependencies": {
+    "doco": "^0.3.0",
     "jsdoc": "^3.5.5"
   }
 }
