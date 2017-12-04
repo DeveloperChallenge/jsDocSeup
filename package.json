@@ -1,0 +1,26 @@
+{
+  "name": "jsdocsetup",
+  "version": "1.0.0",
+  "description": "Process to setup javascript project with jsdoc and doccd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeveloperChallenge/jsDocSeup.git"
+  },
+  "keywords": [
+    "jaDoc",
+    "docco"
+  ],
+  "author": "Mahesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeveloperChallenge/jsDocSeup/issues"
+  },
+  "homepage": "https://github.com/DeveloperChallenge/jsDocSeup#readme",
+  "devDependencies": {
+    "jsdoc": "^3.5.5"
+  }
+}
